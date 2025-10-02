@@ -1,0 +1,15 @@
+# config/settings.yaml
+netbox:
+  url: "https://netbox.example.com"
+  token: "your_api_token_here"
+  port: 443
+  ssl_verify: true
+  timeout: 30
+excel:
+  file_path: "/path/to/IPTR_IP_PLAN.xlsx"
+logging:
+  level: "INFO"
+  file: "netbox_sync.log"
+sync:
+  dry_run: false
+  tag: "iptr-synced"
